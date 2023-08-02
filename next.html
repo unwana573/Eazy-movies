@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test run</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- <link rel="stylesheet" href="/css/scrollbar.min.css"> -->
+    <link rel="icon" href="https://fontawesome.com" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- PRELOADER -->
+        <div class="load" id="load" >
+            <hr/><hr/><hr/><hr/>
+        </div>
+    <div id="content" style="display: none;"> 
+        <!-- ! NAV BAR -->
+        <header>
+            <div class="nav container">
+                <a href="index.html" class="logo">
+                    Eazy<span>movies</span>
+                </a>    
+                <div class="search-box">
+                    <input type="search" name="" id="Search-input" placeholder="Search Movies">
+                    <i class="fas fa-search"></i>
+                </div>
+                <a href="#" class="user">
+                <img src="/pix/wallpaper-4106667_1280.jpg" alt="" class="user-img">
+                </a>
+                <div class="navbar">
+                    <a href="#home" class="nav-link nav-active">
+                        <i class="fas fa-home"></i>
+                        <span class="nav-link-title">Home</span>
+                    </a>
+                    <a href="#popular" class="nav-link">
+                        <i class="fas fa-fire"></i>
+                        <span class="nav-link-title">Trending</span>
+                    </a>
+                    <a href="#movies" class="nav-link">
+                        <i class="fas fa-compass"></i>
+                        <span class="nav-link-title">Explore</span>
+                    </a>
+                    <a href="play-second.html" class="nav-link">
+                        <i class="fas fa-tv"></i>
+                        <span class="nav-link-title">Movies</span>
+                    </a>
+                    <a href="#home" class="nav-link">
+                        <i class="fas fa-heart"></i>
+                        <span class="nav-link-title">Favourite</span>
+                    </a>
+                </div>
+            </div>    
+        </header>
+        <!--! TEXT BAR, PICTURE SLIDER -->
+        <section class="home container" id="home" >
+            <img src="/pix/2vFuG6bWGyQUzYS9d69E5l85nIz.jpg" alt="" class="home-img">            
+                <div class="home-text">            
+                    <h1 class="home-title">Transformer:<br>Rise Of Beast</h1>
+                    <p>Released 9 june</p>
+                    <a href="#" class="watch-btn">    
+                        <i class="fas fa-play"></i>
+                        <span>Watch the trailer</span>
+                    </a>
+                </div>
+        </section>
+        <section class="section" id="popular"    >            
+             <div class="heading">         
+               <h2 class="heading-title">Popular Movies</h2>
+            </div>
+            <!-- <div class="popular-content swiper">
+                <div class="swiper-wrapper">
+                        <div class="swiper-slide">            
+                            <div class="movie-box">       
+                                <img src="/pix/no way home.png" alt="" class="movie-box img">    
+                            </div>
+                        </div>        
+                    </div>            
+                </div>
+                <div class="swiper-button-next"></div>        
+                <div class="swiper-button-prev"></div>        
+                <div class="swiper-button-pagination"></div>        
+                
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">            
+                    <div class="movie-box">       
+                                <img src="/pix/no way home.png" alt="" class="movie-box img">    
+                                <div class="box-text">
+                                    <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                                    <span class="movie-type">Action</span>
+                                    <a href="#" class="watch-btn play-btn">    
+                                        <i class="fas fa-right-arrow"></i>
+                                        <span>Watch the trailer</span>
+                                    </a>
+                                </div>
+                            </div>        
+                        </div>            
+                    </div>
+                    <div class="swiper-button-next"></div>        
+                    <div class="swiper-button-prev"></div>        
+                    <div class="swiper-button-pagination"></div>        
+                    
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">            
+                        <div class="movie-box">       
+                            <img src="/pix/no way home.png" alt="" class="movie-box img">    
+                            <div class="box-text">
+                                <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                                    <span class="movie-type">Action</span>
+                                    <a href="#" class="watch-btn play-btn">    
+                                        <i class="fas fa-right-arrow"></i>
+                                        <span>Watch the trailer</span>
+                                    </a>
+                                </div>
+                            </div>        
+                        </div>            
+                    </div>
+                    <div class="swiper-button-next"></div>        
+                    <div class="swiper-button-prev"></div>        
+                    <div class="swiper-button-pagination"></div>        
+                    
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">            
+                            <div class="movie-box">       
+                                <img src="/pix/no way home.png" alt="" class="movie-box img">    
+                                <div class="box-text">
+                                    <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                                    <span class="movie-type">Action</span>
+                                    <a href="#" class="watch-btn play-btn">    
+                                        <i class="fas fa-right-arrow"></i>
+                                        <span>Watch the trailer</span>
+                                    </a>
+                                </div>
+                            </div>        
+                        </div>            
+                    </div>
+                    <div class="swiper-button-next"></div>        
+                    <div class="swiper-button-prev"></div>        
+                    <div class="swiper-button-pagination"></div>        
+                    
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">            
+                        <div class="movie-box">       
+                            <img src="/pix/no way home.png" alt="" class="movie-box img">    
+                            <div class="box-text">
+                                <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                                <span class="movie-type">Action</span>
+                                <a href="#" class="watch-btn play-btn">    
+                                    <i class="fas fa-right-arrow"></i>
+                                    <span>Watch the trailer</span>
+                                </a>
+                            </div>
+                        </div>        
+                    </div>            
+                </div>
+                <div class="swiper-button-next"></div>        
+                <div class="swiper-button-prev"></div>        
+                <div class="swiper-button-pagination"></div>        
+                    
+            </div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">            
+                    <div class="movie-box">       
+                        <img src="/pix/no way home.png" alt="" class="movie-box img">    
+                                <div class="box-text">
+                                    <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                                    <span class="movie-type">Action</span>
+                                    <a href="#" class="watch-btn play-btn">    
+                                        <i class="fas fa-right-arrow"></i>
+                                        <span>Watch the trailer</span>
+                                    </a>
+                                </div>
+                            </div>        
+                        </div>            
+                    </div>
+                    <div class="swiper-button-next"></div>        
+                    <div class="swiper-button-prev"></div>        
+                    <div class="swiper-button-pagination"></div>        
+                    
+                </div>
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">            
+                        <div class="movie-box">       
+                            <img src="/pix/no way home.png" alt="" class="movie-box img">    
+                            <div class="box-text">
+                                <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                                <span class="movie-type">Action</span>
+                                <a href="#" class="watch-btn play-btn">    
+                                    <i class="fas fa-right-arrow"></i>
+                                    <span>Watch the trailer</span>
+                                </a>
+                            </div>
+                        </div>        
+                    </div>            
+                </div>
+                <div class="swiper-button-next"></div>        
+                <div class="swiper-button-prev"></div>        
+                <div class="swiper-button-pagination"></div>        
+                
+            </div>--
+            <div class="swiper-wrapper">
+                        <div class="swiper-slide">            
+                            <div class="movie-box">       
+                                <img src="/pix/no way home.png" alt="" class="movie-box img">    
+                                <div class="box-text">
+                                    <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                                    <span class="movie-type">Action</span>
+                                    <a href="#" class="watch-btn play-btn">    
+                                        <i class="fas fa-right-arrow"></i>
+                                        <span>Watch the trailer</span>
+                                    </a>
+                                </div>
+                            </div>        
+                        </div>            
+                    </div> -->
+                    <!-- <div class="slideshow-container">
+                        <img src="/pix/no way home.png" alt="Image 1" class="slide">
+                        <img src="/pix/hitmans wife bodyguard.png" alt="Image 2" class="slide">
+                        <img src="/pix/no way home.png" alt="Image 3" class="slide">
+                        <img src="/pix/no way home.png" alt="Image 4" class="slide">
+                        <img src="/pix/no way home.png" alt="Image 5" class="slide">
+                        <img src="/pix/no way home.png" alt="Image 6" class="slide">
+                        <img src="/pix/no way home.png" alt="Image 7" class="slide">
+                        <img src="/pix/no way home.png" alt="Image 8" class="slide">
+                        <div class="swiper-button-next"></div>        
+                        <div class="swiper-button-prev"></div>        
+                        <div class="swiper-button-pagination"></div>         
+                        
+                        Add more images as needed 
+                    </div> -->
+                    <div class="wrapper container">
+                        <button id="left" class="prev-button" onclick="prevSlide()">&#10094;</button> 
+                        <div class="carousel">
+                            <img src="/pix/black_widow_ver9_xlg_480x.progressive.webp" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/9PFonBhy4cQy7Jz20NpMygczOkv.jpg" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/scan_8c8b28d0-7594-4642-bf73-f684b0e48251_480x.progressive.webp" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/nygOUcBKPHFTbxsYRFZVePqgPK6.jpg" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/tIcbs6fN8WHSo6iFETz23l2N8tl.jpg" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/guardians_of_the_galaxy_vol_three_480x.progressive.webp" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/ant-man-and-the-wasp-quantumania_ogpmfvqi_480x.progressive.webp" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/the-little-mermaid_rlpetcye_480x.progressive.webp" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/FjEYLtMUAAAsWmS.webp" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/scream-vi_bevzvyks_500x749.webp" alt="pix" height="400"  draggable="false">
+                            <img src="/pix/hJfI6AGrmr4uSHRccfJuSsapvOb.jpg" alt="pix" height="400"  draggable="false"> 
+                            <!-- <div class="box-text">
+                                <h2 class="movie-title">Spider-Man: No Way Home</h2>
+                                <span class="movie-type">Action</span>
+                                <a href="#" class="watch-btn play-btn">    
+                                    <i class="fas fa-right-arrow"></i>
+                                    <span>Watch the trailer</span>
+                                </a>
+                            </div> -->
+                            <button id="right" class="next-button" onclick="nextSlide()">&#10095;</button> 
+                        </div>  
+                    </div>
+                </section>
+                <!-- ! movie / shows -->
+                <section class="movies container" id="movies">
+                    <div class="head">         
+                        <h2 class="head-title">Movies and Shows</h2>
+                    </div>
+                    <div class="movies-content">       
+                        <div class="movie-box">       
+                            <img src="/pix/transformers_rise_of_the_beasts_ver2_480x.progressive.webp" alt="" class="movie-box img">    
+                            <div class="box-text">
+                                <h2 class="movie-title">Tansformer: <br> Rise of Beast</h2>
+                                <span class="movie-type">Action</span>
+                            <a href="play-second.html" class="watch-btn play-btn">    
+                                 <i class="fas fa-play"></i>
+                                <!-- <span>Watch the trailer</span> -->
+                            </a> 
+                        </div>
+                    </div>        
+                    <div class="movie-box">       
+                        <img src="/pix/the-flash_4lrvsmpk_480x.progressive.webp" alt="" class="movie-box img">    
+                        <div class="box-text">
+                            <h2 class="movie-title">Flash</h2>
+                            <span class="movie-type">Action/Comedy</span>
+                            <a href="#" class="watch-btn play-btn">    
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                    </div>        
+                    <div class="movie-box">       
+                        <img src="/pix/311877204_1354016275405252_1887884911853865872_n_500x749.webp" alt="" class="movie-box img">    
+                        <div class="box-text">
+                            <h2 class="movie-title">Wakanda Forever</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">    
+                                <i class="fas fa-play"></i>
+                                <!-- <span>Watch the trailer</span> -->
+                            </a>
+                        </div>
+                    </div>        
+                    <div class="movie-box">       
+                        <img src="/pix/ant-man-and-the-wasp-quantumania_vjwwvg7f_500x749.webp" alt="" class="movie-box img">    
+                        <div class="box-text">
+                            <h2 class="movie-title">Antman And The Wasp Quantumania</h2>
+                            <span class="movie-type">Action/comedy</span>
+                            <a href="#" class="watch-btn play-btn">    
+                                <i class="fas fa-play"></i>
+                                <!-- <span>Watch the trailer</span> -->
+                            </a>
+                        </div>
+                    </div>        
+                    <div class="movie-box">       
+                        <img src="/pix/f02c4b3ba81e2c9041d3de125a38cf56_480x.progressive.webp" alt="" class="movie-box img">    
+                        <div class="box-text">
+                            <h2 class="movie-title">Captain Marvel</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">    
+                                <i class="fas fa-play"></i>
+                                <!-- <span>Watch the trailer</span> -->
+                            </a>
+                        </div>
+                    </div>        
+                    <div class="movie-box">       
+                        <img src="/pix/spider-man-across-the-spider-verse_jwnpnzm9_480x.progressive.webp" alt="" class="movie-box img">    
+                        <div class="box-text">
+                            <h2 class="movie-title">Spiderman Across The Spider Verse</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">    
+                                <i class="fas fa-play"></i>
+                                <!-- <span>Watch the trailer</span> -->
+                            </a>
+                        </div>
+                    </div>        
+                    <div class="movie-box">       
+                        <img src="/pix/fast-x_jpqueeqo_480x.progressive.webp" alt="" class="movie-box img">    
+                        <div class="box-text">
+                            <h2 class="movie-title">Fast And Furious X</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">    
+                                <i class="fas fa-play"></i>
+                                <!-- <span>Watch the trailer</span> -->
+                            </a>
+                        </div>
+                    </div>        
+                    <div class="movie-box">       
+                        <img src="/pix/scan034_9a3642e0-7cc1-49b5-a774-f6dc0bdde546_480x.progressive.webp" alt="" class="movie-box img">    
+                        <div class="box-text">
+                            <h2 class="movie-title">Shazam: <br>Fury Of The Gods</h2>
+                            <span class="movie-type">Action</span>
+                            <a href="#" class="watch-btn play-btn">    
+                                <i class="fas fa-play"></i>
+                                <!-- <span>Watch the trailer</span> -->
+                            </a>
+                        </div>
+                    </div>        
+                </div>  
+        </section>              
+         <!-- NEXT BTN               -->
+         <div class="next-page">
+            <a href="index.html" class="next-btn">Prev Page</a>
+        </div>
+         <div class="copyright">
+            <!-- <p>&#169; CarpoolVenom All Right Reserved</p> -->
+         </div>
+      </div>
+       <!-- <script src="/js/swiper-bundle.min.js"></script> -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
